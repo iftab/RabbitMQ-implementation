@@ -1,0 +1,19 @@
+server:
+  port: 9092
+
+
+#RabbitMQ Configuration.
+spring:
+  application:
+    name: RabbitMQ_Implementation
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+    
+rabbitmq:
+   queue:
+     name: rabbit-mq-tutorial-queue
+     exchange-name: rabbit-mq-tutorial-exchange
+     routing_key: rabbit-mq-tutorial-routing-key
