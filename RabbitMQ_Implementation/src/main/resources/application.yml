@@ -17,3 +17,6 @@ rabbitmq:
      name: rabbit-mq-tutorial-queue
      exchange-name: rabbit-mq-tutorial-exchange
      routing_key: rabbit-mq-tutorial-routing-key
+     json:
+         queue-name: rabbit-mq-tutorial-json-queue
+         routing_key: rabbit-mq-tutorial-json-routing-key
